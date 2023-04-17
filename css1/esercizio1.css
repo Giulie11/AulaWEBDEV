@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bd-gray{
+    border: 4px solid gray;
+}
+
+#red:hover{
+    background-color: red;
+}
+
+#yellow:hover{
+    background-color: yellow;
+}
+
+#green:hover{
+    background-color: green;
+}
