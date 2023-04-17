@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkj-hvrlrW3XKBrlINJNso37QPL5FKWxXSUHfdvpxaeEkXV23-vGJro9_ex_iARhmFEjk&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+
+nav{
+    height: 80px;
+    display: flex;
+    /* sposta i contenuti uno a destra e uno a sinistra*/
+    justify-content: space-between;
+    /* allineo verticalmente il contenuto */
+    align-items: center;
+}
+
+nav img{
+    width: 100px;
+}
+
+nav ul{
+    /* posiziono gli elemneti uno accanto all'altro*/
+    display: flex;
+    /* tolgo i puntini*/
+    list-style: none;
+}
+
+nav ul li{
+    margin-left:10px;
+    margin-right:10px; 
+    font-size: 20px;
+}
+
+.hero{
+    /* Posiziono l'h1 al centro tramite flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh - 160px);
+}
+
+.principale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primo-bottone{
+    background-color: rgb(192, 8, 85);
+    color: rgb(227, 159, 24);
+    padding: 5px;
+    margin: 50px;
+    border-radius: 20%;
+}
+
+.secondo-bottone{ 
+    background-color: rgb(227, 159, 24);
+    color: rgb(192, 8, 85);
+    padding: 5px;
+    margin: 50px;
+    border-radius: 20%;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.bottom-footer{
+    margin-left: 20px;
+    padding-top: 20px;
+
+}
