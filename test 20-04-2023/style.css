@@ -1,0 +1,34 @@
+/* file CSS (linguaggio di stile) per la grafica della pag web
+   in questo caso abbiamo ccreato un file separato (Buona prassi) che poi abbiamo collegato all'html, ma si potrebbe 
+   scrivere nell'head di html o inline */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+#intestazione{
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+nav{
+    margin: 30px;
+}
+
+.contenuto{
+    margin: 150px;
+}
+
+footer{
+    margin: 150px;
+}
